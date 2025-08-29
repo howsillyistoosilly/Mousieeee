@@ -4,12 +4,21 @@ using UnityEngine;
 public class DraggingScript : MonoBehaviour
 {
     [SerializeField] private bool isDragging = false;
+
+    public GameObject rope;
     // Update is called once per frame
     void Update()
     {
         if (isDragging)
         {
-            transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (rope.active)
+            {
+                transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            }
+            else
+            {
+            }
         }
     }
 
