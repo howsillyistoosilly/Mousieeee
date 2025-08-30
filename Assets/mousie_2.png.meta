@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mousie_2_0: -8471487448821954820
+      mousie_2_1: -6316328445077233710
+      mousie_2_2: 4194439336299463070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

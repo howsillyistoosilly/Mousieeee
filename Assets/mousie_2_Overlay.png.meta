@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mousie_2_Overlay_0: -3942572238269641618
+      mousie_2_Overlay_1: -4037314851188550544
+      mousie_2_Overlay_2: 4103296460661455213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
