@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 77de1bcc4d4fc654baee7f4385e922b9
+guid: 13e1a188f6a063a48b3ce2e742dc5856
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4360530552843628718
-    second: ship_0
+      213: -5913137829920796851
+    second: Asteroids_Overlay_0
+  - first:
+      213: 9035394867980955979
+    second: Asteroids_Overlay_1
+  - first:
+      213: -6685215300173636226
+    second: Asteroids_Overlay_2
+  - first:
+      213: 5585170833838299777
+    second: Asteroids_Overlay_3
+  - first:
+      213: -6248526619430183810
+    second: Asteroids_Overlay_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +108,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ship_0
+      name: Asteroids_Overlay_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 874
-        height: 954
+        x: 14
+        y: 19
+        width: 170
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25f8485b0984c73c0800000000000000
-      internalID: -4360530552843628718
+      spriteID: d4f85ab097050fda0800000000000000
+      internalID: -5913137829920796851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroids_Overlay_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 22
+        width: 181
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b417467c2cb246d70800000000000000
+      internalID: 9035394867980955979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroids_Overlay_2
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 17
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dd422ba185933a0800000000000000
+      internalID: -6685215300173636226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroids_Overlay_3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 6
+        width: 177
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18addc82843828d40800000000000000
+      internalID: 5585170833838299777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroids_Overlay_4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 8
+        width: 141
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c9a4f4526c849a0800000000000000
+      internalID: -6248526619430183810
       vertices: []
       indices: 
       edges: []
@@ -147,8 +234,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ship_0: -4360530552843628718
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
