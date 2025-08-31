@@ -37,6 +37,5 @@ public class RopeCutSimulation : MonoBehaviour
             rigidbody2d.linearVelocity = new Vector3(RandomForce, RandomForce, RandomForce);
             rigidbody2d.freezeRotation = false;
         }
-        
     }
 }
