@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BlackHole
   - Asteroid
+  - Chez
   layers:
   - Default
   - TransparentFX
