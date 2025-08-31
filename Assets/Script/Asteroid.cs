@@ -9,20 +9,24 @@ public class Asteroid : MonoBehaviour
     private float ypos;
     public GameObject rope;
     public GameObject mousie;
+    public GameObject collectible;
+    private Collectible collectibleScript;
+    private bool isCollected;
 
    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        collectibleScript = collectible.GetComponent<Collectible>();
 
         if (track)
         {
-            speed = 4f;
+            speed = 3f;
             xpos = 0.8f;
         }
         else
         {
-            speed = -4f;
+            speed = -3f;
             xpos = -3.6f;
         }
     }
@@ -40,11 +44,11 @@ public class Asteroid : MonoBehaviour
     {
         if (track)
         {
-            transform.position = new Vector2(xpos, -10f);
+            transform.position = new Vector2(xpos, -12f);
         }
         else
         {
-            transform.position = new Vector2(xpos, 10f);
+            transform.position = new Vector2(xpos, 12f);
         }
     }
 
@@ -54,6 +58,11 @@ public class Asteroid : MonoBehaviour
     // }
     void Update()
     {
+        isCollected = collectibleScript.isCollected;
+        if (isCollected)
+        {
+            speed = 0;
+        }
         ypos = transform.position.y + speed * Time.deltaTime;
         transform.position = new Vector2(xpos, ypos);
     }

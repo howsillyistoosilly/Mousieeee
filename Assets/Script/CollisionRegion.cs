@@ -6,7 +6,7 @@ public class CollisionRegion : MonoBehaviour
     public GameObject asteroid0;
     public GameObject asteroid1;
     public GameObject asteroid2;
-    public GameObject asteroid3;
+    // public GameObject asteroid3;
     public GameObject asteroid4;
 
     private bool asteroidCollided = false;
