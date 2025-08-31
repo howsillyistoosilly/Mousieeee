@@ -14,7 +14,6 @@ public class DraggingScript : MonoBehaviour
             if (rope.active)
             {
                 transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
             }
             else
             {
