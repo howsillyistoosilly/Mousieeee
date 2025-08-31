@@ -21,12 +21,12 @@ public class Asteroid : MonoBehaviour
 
         if (track)
         {
-            speed = 4f;
+            speed = 3f;
             xpos = 0.8f;
         }
         else
         {
-            speed = -4f;
+            speed = -3f;
             xpos = -3.6f;
         }
     }
@@ -44,11 +44,11 @@ public class Asteroid : MonoBehaviour
     {
         if (track)
         {
-            transform.position = new Vector2(xpos, -10f);
+            transform.position = new Vector2(xpos, -12f);
         }
         else
         {
-            transform.position = new Vector2(xpos, 10f);
+            transform.position = new Vector2(xpos, 12f);
         }
     }
 
